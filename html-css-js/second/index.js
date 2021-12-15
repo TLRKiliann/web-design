@@ -10,3 +10,5 @@ chgColor.addEventListener("click", () => {
 chgPosition.addEventListener("click", () => {
   chgPosition.classList.toggle("position");
 });
+
+console.log("ok");
