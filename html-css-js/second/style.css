@@ -1,6 +1,6 @@
 *
 {
-    background: linear-gradient(135deg, orange 30%, purple 55%);
+    background: linear-gradient(135deg, lightblue 30%, purple 55%);
 }
 
 h1
@@ -16,10 +16,10 @@ header
 
 #titlebox
 {
+    font-size: 2rem;
     animation-name: rotationletter;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    text-transform: rotateX(0deg);
 }
 
 @keyframes rotationletter {
@@ -32,12 +32,17 @@ header
     }
 }
 
-#titlebox:hover
+#rotate-me
+{
+    font-size: 2rem;
+    color: blue;
+}
+
+#rotate-me:hover
 {
     animation-name: secondtranshover;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    text-transform: rotateY(360deg);
 }
 
 @keyframes secondtranshover {
@@ -46,7 +51,7 @@ header
     }
     100%
     {
-        transform: rotateY(360deg);
+        transform: rotateX(360deg);
     }
 }
 
@@ -55,7 +60,7 @@ header
     color: white;
 }
 
-.position
+.position 
 {
-    transform: translateX(400px);
+    transform: rotateY(360deg);
 }
