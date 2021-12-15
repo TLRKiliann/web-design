@@ -1,0 +1,261 @@
+body
+{
+    background: url(./assets/bg.jpg) no-repeat fixed center/cover;
+    height: 100vh;
+    transition: 2s;
+    transform: translateX(-200px);
+    opacity: 0;
+    /*overflow: hidden;*/
+}
+
+.backcolor
+{
+    background: skyblue;
+}
+
+.backcolor2
+{
+    background: pink;
+}
+
+.backcolor3
+{
+    background: white;
+}
+
+.backcolor4
+{
+    background: black;
+}
+
+body:hover
+{
+    transition: 2.5s;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Times New Roman, serif;
+    font-size: 2.5rem;
+    color : whitesmoke;
+    text-shadow: 1px 1px 3px slateblue;
+    margin: 40px auto;
+}
+
+p
+{
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 16px;
+    color: purple;
+}
+
+.circle
+{
+    right: 20px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    z-index: 1;
+    text-align: right;
+    box-shadow: 1px 2px 2px black;
+}
+
+.tochangecircle
+{
+    top: 0px;
+    box-shadow: 1px 2px 2px white;
+}
+
+.circle2
+{
+    right: 50px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: lightpink;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    z-index: 2;
+    text-align: right;
+    box-shadow: 1px 2px 2px black;
+}
+
+.tochangecircle2
+{
+    top: 0px;
+    box-shadow: 1px 2px 2px white;
+}
+
+.circle3
+{
+    right: 80px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    z-index: 3;
+    text-align: right;
+    box-shadow: 1px 2px 2px black;
+}
+
+.tochangecircle3
+{
+    top: 0px;
+    box-shadow: 1px 2px 2px white;
+}
+
+.circle4
+{
+    right: 110px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    z-index: 4;
+    text-align: right;
+    box-shadow: 1px 2px 2px black;
+}
+
+.tochangecircle4
+{
+    top: 0px;
+    box-shadow: 1px 2px 2px white;
+}
+
+.box
+{
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 1px 2px 4px #05222a;
+    opacity: 0.6;
+    height: auto;
+}
+
+
+.proprio
+{
+    width: auto;
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: black;
+    opacity: 1;
+}
+
+#flexproprio
+{
+    width: auto;
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: #181878;
+}
+
+#titlebox h2
+{
+    color: black;
+    opacity: 1;
+    /*border: 2px solid black;*/
+}
+
+#titlebox p
+{
+
+    opacity: 1;
+    /*border: 2px solid black;*/
+    justify-content: center;
+}
+
+li
+{
+    font-size: 1.2rem;
+    text-shadow: 0.8px 1px 0.2px whitesmoke;
+    /*border: 2px solid black;*/
+}
+
+.mainlimit
+{
+    width: 65%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 3px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px #05222a;
+    background: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+#flexdown
+{
+    width: 67%;
+    margin: 0 auto;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px #05222a;
+    opacity: 0.6;
+    height: auto;
+}
+
+footer
+{
+    text-align: center;
+    color: black;
+}
+
+#areafooter
+{
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px #05222a;
+    opacity: 0.6;
+    height: auto;
+}
+
+@media screen and (max-width: 780px) {
+    h1,h2,p
+    {
+        font-size: 12px;
+
+    }
+    li
+    {
+        margin:  0 auto;
+        font-size: 6px;
+
+    }
+}
