@@ -1,16 +1,27 @@
 # web-design
 
-web-kit-tools
+## Skills :
 
-2 documents
+`-webkit-animation`
+`-moz-animation`
+`-o-animation`
+`animation`
+`@keyframes`
 
-html-css and html-css-js
+---
+
+### 2 documents : 
+
+`html-css and html-css-js`
+
+---
 
 Special thanks to :
 
+`freecodecamp.org
 ronak
 Carlos Hernandez
-Lilih Suhaeri
+Lilih Suhaeri`
 
 you can find source-code at :
 https://blog.avada.io/css/animated-backgrounds/#animation-background-tanya
