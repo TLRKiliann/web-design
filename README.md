@@ -18,10 +18,10 @@
 
 Special thanks to :
 
-`freecodecamp.org
+```freecodecamp.org
 ronak
 Carlos Hernandez
-Lilih Suhaeri`
+Lilih Suhaeri```
 
 you can find source-code at :
 https://blog.avada.io/css/animated-backgrounds/#animation-background-tanya
