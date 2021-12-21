@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("./assets/space.jpg");
+}
+
+#img-action
+{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.mycircle
+{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+.circle-animated
+{
+    -webkit-animation: myOrbit 4s linear infinite;/*zoom-in 2s ease infinite;  Chrome, Safari 5 */
+       -moz-animation: myOrbit 4s linear infinite;/*zoom-in 2s ease infinite;  Firefox 5-15 */
+         -o-animation: myOrbit 4s linear infinite;/*zoom-in 2s ease infinite;  Opera 12+ */
+            animation: myOrbit 4s linear infinite;/*zoom-in 2s ease infinite;  Chrome, Firefox 16+, IE 10+, Safari 5 */
+            /*overflow: hidden; to hidden scrollbar specific area*/                                        
+}
+
+/*
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+*/
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to  { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
