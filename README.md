@@ -2,10 +2,10 @@
 
 ## Skills :
 
-`-webkit-animation`
-`-moz-animation`
-`-o-animation`
-`animation`
+`-webkit-animation`\
+`-moz-animation`\
+`-o-animation`\
+`animation`\
 `@keyframes`
 
 ---
