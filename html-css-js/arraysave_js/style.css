@@ -1,0 +1,87 @@
+body
+{
+    font-family: "Times New Roman", "Arial";
+    background: #E6FBFF;
+    /*width: 0 auto;
+    margin: 0 auto;*/
+}
+
+.table-cl
+{
+    resize: horizontal;
+    overflow: auto;
+}
+
+#div-table
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #4D88FF;
+}
+
+caption
+{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+    font-family: "Times New Roman", "Arial";
+    font-weight: bold;
+    color: navy;
+    text-shadow: 1px 1px 1px lightblue;
+}
+
+#th_format
+{
+    padding: 5px;
+    background: lightblue;
+    border: 2px solid #4D88FF;
+    color: navy;
+}
+/*
+#win-title
+{
+    text-align: center;
+    background: lightblue;
+    border: 2px solid #4D88FF;
+    font-weight: bold;
+    color: navy;
+}
+
+#lost-title
+{
+    text-align: center;
+    background: lightblue;
+    border: 2px solid #4D88FF;
+    font-weight: bold;
+    color: navy;
+}
+*/
+
+/*
+#td-frm
+{
+    padding: 5px;
+    text-align: right;
+    background: #CCEEFF;
+    border: 2px solid #4D88FF;
+    color: navy;
+}
+
+#td-lost
+{
+    padding: 5px;
+    text-align: right;
+    background: #CCEEFF;
+    border: 2px solid #4D88FF;
+    color: navy;
+}
+*/
+td
+{
+    padding: 5px;
+    text-align: right;
+    background: #CCEEFF;
+    border: 3px solid #4D88FF; /*#4D6AFF;*/
+    color: navy;
+}
