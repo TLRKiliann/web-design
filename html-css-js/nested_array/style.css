@@ -1,0 +1,18 @@
+body
+{
+    margin: auto;
+    background: yellow;
+}
+
+.user-card
+{
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: black;
+    color: yellow;
+    font-weight: bold;
+}
