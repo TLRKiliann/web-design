@@ -16,7 +16,7 @@ Web-Design contains some interesting things for learning code (HTML5-CSS3-JS).
 `CSS animation with :`\ 
 `@-webkit-keyframes and @keyframes`
 
-### HTML-CSS-JS
+### HTML-CSS-JS :
 ---
 
 `Actions effects with CSS and JS`
