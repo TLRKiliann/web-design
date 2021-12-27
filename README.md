@@ -1,20 +1,32 @@
-# web-design
+# web-design 
 
-## Skills :
+Web-Design is a folder which contains some interesting things for beginning (HTML5-CSS3-JS) code. There are some design-effect.
 
+## Features :
+
+Some animations :
+---
 `-webkit-animation`\
 `-moz-animation`\
 `-ms-animation`\
 `-o-animation`\
-`animation with @keyframes`
+`CSS animation with :`\ 
+@-webkit-keyframes and @keyframes`\
+
+### HTML-CSS
+
+### HTML-CSS-JS
+
+### javascript/code_tester/ :
+
+`Look at console to compare with js code.` 
+`function (arrow, ternary, recursive) in JS`\
+`array with differents examples`\
+`DOM (Document Object Manager) actions`\
 `event click with Javascript to interact with CSS class`
-###
-`Look at console to compare with js code. with some function (arrow) in JS`
-`toggle action`
-``
 ---
 
-### Documents : 
+### Main Documents : 
 
 `html-css`\
 `html-css-js`\
@@ -22,7 +34,7 @@
 
 ---
 
-Some examples comes from artists & disigner, so special thanks to :
+Some examples comes from artists & disigner, so special thanks to them :
 
 ```
 freecodecamp.org
