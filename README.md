@@ -1,11 +1,14 @@
-# web-design 
+# Web-Design 
 
-Web-Design is a folder which contains some interesting things for beginning (HTML5-CSS3-JS) code. There are some design-effect.
+Web-Design contains some interesting things for beginning (HTML5-CSS3-JS) code. There are some : 
 
 ## Features :
 
-Some animations :
----
+`Animations with CSS`
+`Design-effect with CSS`\
+`Actions effects with CSS and JS`\
+
+
 `-webkit-animation`\
 `-moz-animation`\
 `-ms-animation`\
@@ -13,11 +16,14 @@ Some animations :
 `CSS animation with :`\ 
 @-webkit-keyframes and @keyframes`\
 
-### HTML-CSS
+### HTML-CSS :
+---
 
 ### HTML-CSS-JS
+---
 
 ### javascript/code_tester/ :
+---
 
 `Look at console to compare with js code.`\
 `function (arrow, ternary, recursive) in JS`\
@@ -28,6 +34,7 @@ Some animations :
 ---
 
 ### Main Documents : 
+---
 
 `html-css`\
 `html-css-js`\
@@ -35,7 +42,7 @@ Some animations :
 
 ---
 
-Some examples comes from artists & disigner, so special thanks to them :
+### Some examples comes from artists & disigner, so special thanks to them :
 
 ```
 freecodecamp.org
