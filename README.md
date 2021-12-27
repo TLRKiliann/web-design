@@ -4,20 +4,25 @@
 
 `-webkit-animation`\
 `-moz-animation`\
+`-ms-animation`\
 `-o-animation`\
-`animation`\
-`@keyframes`
-
+`animation with @keyframes`
+`event click with Javascript to interact with CSS class`
+###
+`Look at console to compare with js code. with some function (arrow) in JS`
+`toggle action`
+``
 ---
 
-### 2 documents : 
+### Documents : 
 
 `html-css`\
-`html-css-js`
+`html-css-js`\
+`javascript`
 
 ---
 
-Special thanks to :
+Some examples comes from artists & disigner, so special thanks to :
 
 ```
 freecodecamp.org
