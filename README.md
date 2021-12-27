@@ -1,6 +1,6 @@
-# Web-Design 
+# Web-Developer 
 
-Web-Design contains some interesting things for learning code (HTML5-CSS3-JS).
+This folder contains some interesting things for learning code (HTML5-CSS3-JS). Rher
 
 ## Features :
 
@@ -24,7 +24,7 @@ Web-Design contains some interesting things for learning code (HTML5-CSS3-JS).
 ### javascript/code_tester/ :
 ---
 
-`Look at console to compare with js code.`\
+`"Look at console" to compare with 'JS' code.`\
 `function (arrow, ternary, recursive) in JS`\
 `array with differents examples`\
 `DOM (Document Object Manager) actions`\
