@@ -1,26 +1,25 @@
 # Web-Design 
 
-Web-Design contains some interesting things for beginning (HTML5-CSS3-JS) code. There are some : 
+Web-Design contains some interesting things for learning code (HTML5-CSS3-JS).
 
 ## Features :
 
-`Animations with CSS`
+### HTML-CSS :
+---
+
 `Design-effect with CSS`\
-`Actions effects with CSS and JS`\
-
-
+`Animations with CSS`
 `-webkit-animation`\
 `-moz-animation`\
 `-ms-animation`\
 `-o-animation`\
 `CSS animation with :`\ 
-@-webkit-keyframes and @keyframes`\
-
-### HTML-CSS :
----
+`@-webkit-keyframes and @keyframes`
 
 ### HTML-CSS-JS
 ---
+
+`Actions effects with CSS and JS`
 
 ### javascript/code_tester/ :
 ---
@@ -33,7 +32,7 @@ Web-Design contains some interesting things for beginning (HTML5-CSS3-JS) code. 
 
 ---
 
-### Main Documents : 
+## Main Documents : 
 ---
 
 `html-css`\
