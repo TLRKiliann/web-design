@@ -19,11 +19,12 @@ Some animations :
 
 ### javascript/code_tester/ :
 
-`Look at console to compare with js code.` 
+`Look at console to compare with js code.`\
 `function (arrow, ternary, recursive) in JS`\
 `array with differents examples`\
 `DOM (Document Object Manager) actions`\
 `event click with Javascript to interact with CSS class`
+
 ---
 
 ### Main Documents : 
