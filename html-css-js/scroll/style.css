@@ -1,0 +1,42 @@
+body 
+{
+    background: orange;
+}
+
+#myscript
+{
+    width: 100%;
+    height: 1800px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+#second-script
+{
+    margin-top: 400px;
+}
+
+nav
+{
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: orange;
+    color: red;
+    transition: 0.4s;
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 1.4rem;
+}
