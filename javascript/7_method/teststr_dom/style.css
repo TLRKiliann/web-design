@@ -1,0 +1,108 @@
+body
+{
+    width: 0 auto;
+    margin: 0 auto;
+    background: purple;
+    color: white;
+}
+
+.flex-box
+{
+    width: 90%;
+    height: 800px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: grey;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px blue,
+    1px 1px 2px skyblue,
+    1px 1px 3px lightblue;
+}
+
+#box
+{
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkorchid;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#sec-box
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkorchid;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#third-box
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkorchid;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#forth-box
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkorchid;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#fivth-box
+{
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: darkorchid;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+.conf-butt
+{
+    width: 80%;
+    text-align: right;
+}
+
+#mybutt
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: "Times New Roman", "Arial";
+    background: darkorchid;
+    color: white;
+}

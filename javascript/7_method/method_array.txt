@@ -1,0 +1,89 @@
+let array1 = ["Javascript", "Python", "Html"];
+let array2 = ["Rudy", "Solid"];
+
+let newArray = array1 + array2;
+//string collés
+
+concat()
+let newArray = array1.concat(array2);
+console.log(newArray);
+
+Spread operator ...
+let newArray = [...array1, ...array2];
+console.log(newArray);
+
+join()
+console.log(array1.join(" "));
+//casse les chaîne de string
+
+slice()
+console.log(array.slice(2));
+//découpe les 2 premiers éléments du array
+console.log(array.slice(2, 3));
+//retire les 2 premiers
+
+indexOf()
+console.log(array1.indexOf("Python"));
+
+forEach()
+array2.forEach((Rudy) => console.log(Rudy));
+
+every()
+console.log(array1.every(("Python") => Python === "t");
+//False
+//chaîne de string exacte.
+
+some()
+console.log(array1.some(("Python") => Python === "t");
+
+shift()
+pop()
+unshift()
+
+const restArray = array1.splice(1, 1, "C++");
+console.log(restArray);
+//remplace le premier élément par un élément par C++
+avec spread operator:
+const restArray = array1.splice(0, 2, ...array2);
+
+reduce()
+let arrayNumber = [2,5,56,7,8];
+console.log(arrayNumber.reduce((x,y) => x + y));
+
+push()
+array1.push("Salut");
+
+---
+
+//FILTER, SORT, MAP
+
+---
+
+filter()
+console.log(arrayNumber.filter((number) => number > 10));
+
+sort()
+console.log(arrayNumber.sort((a, b) => b - a));
+//du plus grand au plus petit
+
+//Combiner : IMPORTANT
+console.log(arrayNumber.filter((number) => number > 10).sort((a, b) => b - a));
+
+map()
+arrayNumber.map((number) => console.log(number));
+arrayNumber.map((number) => document.body.textContent += 
+'<li>${number}</li>'number));
+
+arrayNumber.map((number) => document.body.textContent += 
+`<li>${number}</li>`number);
+ou
+document.body.textContent = arrayNumber.map((number) =>
+`<li>${number}</li>`).join("");
+
+
+
+
+//Spread
+arr = [1, 2, 3, 4];
+newArr = Math.max(...arr);
+console.log(newArr);

@@ -1,0 +1,77 @@
+
+	>>------------------>
+	>>-- ! Remind me ! -->
+	>>------------------>
+
+...
+typeof
+console.log(typeof value);
+console.log(typeof "34");
+...
+
+...
+parseInt()
+console.log(eval(parseInt("1") + 2);
+parseInt tansforme string en number
+...
+
+...
+isNaN
+isNaN = is not a number
+...
+
+...
+string.length
+let string = "Je suis une string"
+console.log(string.length);
+console.log(string[string.length]);
+...
+
+...
+UNIQUEMENT AVEC LES STRING :
+split()
+console.log(string.split("i"));
+découpe ou il y a i
+console.log(string.split("une"));
+//['Je suis ', ' string']
+...
+
+...
+indexOf()
+let string = "Je suis une string";
+console.log(string.indexOf("suis"));
+//3 (liste)
+console.log(string.indexOf("string"));
+//12 (liste)
+retourne -1 si n'existe pas.
+...
+
+...
+slice()
+let newString = string.slice(2);
+coupe à 2
+let newString = string.slice(2, 5);
+coupe 2 à 5
+...
+
+...
+splice()
+spliceArray = ["La", "method", "splice", "remplace", "enlève", "ajoute"]
+console.log(spliceArray.splice(2, 1, "je", "temmerde"));
+console.log(spliceArray)
+...
+
+...
+string.toLowerCase()
+or
+string.toUpperCase()
+...
+
+...
+replace()
+console.log(string.replace("string", "bête"));
+...
+
+
+
+

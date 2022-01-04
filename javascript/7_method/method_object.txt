@@ -1,0 +1,83 @@
+// JSON format
+
+let data = [
+  {
+    pseudo : "Denis",
+    age : 33,
+    techno : ["JS", "Python", "React"],
+    admin : false,
+  },
+  {
+    pseudo : "Anastasia",
+    age : 28,
+    techno : ["JS", "HTML", "CSS"],
+    admin : true,
+  },
+  {
+    pseudo : "Jasmine",
+    age : 35,
+    techno : ["JS", "Node.js", "Redux"],
+    admin : false,
+  },
+];
+
+document.body.textContent = data
+  .filter((user) => user.admin === false)
+  //.filter((user) => user.pseudo.includes("Den")) 
+  //pour afficher uniquement Denis
+  .sort((a,b) => b.age - a.age)
+  .map((users) => 
+  `
+    <div class="user-card">
+      <h2>Pseudo : ${user.pseudo}</h2>
+      <p>Age : ${user.age}</p>
+      <p>Status : ${user.admin ? "Modérateur" : "Membre"}</p>
+    </div>
+  `
+  )
+  .join();
+
+//On peut ensuite donner du style dans CSS pour .user-card{}
+
+------------------------------------------------------------------
+
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+//fait apparaître les noms
+function isEveryoneHere(userObj) {
+  // Only change code below this line
+  console.log(Object.keys(users));
+  // Only change code above this line
+}
+
+//les 4 noms existent donc true
+function isEveryoneHere(userObj) {
+  // Only change code below this line
+  if (
+    userObj.hasOwnProperty('Alan') &&
+    userObj.hasOwnProperty('Jeff') &&
+    userObj.hasOwnProperty('Sarah') &&
+    userObj.hasOwnProperty('Ryan')
+    ) {
+      return true;
+    }
+    return false;
+  // Only change code above this line
+}

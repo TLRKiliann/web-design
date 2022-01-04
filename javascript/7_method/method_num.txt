@@ -1,0 +1,46 @@
+
+let number = 45.657
+
+toFixed()
+console.log(number.toFixed(2));
+//2 chiffres après la virgule
+
+perseInt()
+console.log(parseInt("2"));
+let stringNum = "24.55 est un chiffre";
+console.log(parseInt(stringNum));
+//24 --> car il garde le premier chiffre
+
+parseFloat()
+console.log(parseFloat(stringNum);
+console.log(parseInt(stringNum));
+//24.55
+
+Math.PI
+console.log(Math.PI);
+//3.14...
+
+Math.round()
+console.log(Math.round(3.5));
+//4
+
+Math.floor()
+console.log(Math.floor(3.2));
+//au plus bas
+
+Math.ceil()
+console.log(Math.ceil(4.5));
+//au plus haut
+
+Math.pow()
+console.log(Math.pow(2, 7));
+//2 puissance 7
+
+Math.sqrt()
+console.log(Math.sqrt(16));
+//racine carrée
+
+Math.random()
+console.log(Math.random() * 50);
+console.log(Math.floor(Math.random() * 50));
+//entre 0 et 49
