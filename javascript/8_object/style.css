@@ -1,0 +1,32 @@
+body
+{
+    width: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    background: navy;
+    color: purple;
+    font-family: "Times", "serif";
+    font-size: 2rem;
+    text-shadow: 2px 1px 1px navy;
+    text-shadow: 3px 2px 2px whitesmoke;
+}
+
+h2
+{
+    color: skyblue;
+    text-shadow: none;
+}
+
+.user-card
+{
+    width: 60%;
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: mediumpurple;
+    color: navy;
+    text-shadow: 2px 2px 1px lightblue;
+}
