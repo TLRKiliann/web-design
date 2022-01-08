@@ -1,0 +1,99 @@
+body
+{
+    background: #ccffff;
+}
+
+#flex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    /*border: 2px solid black;*/
+}
+
+.all-card
+{
+    width: 75%;
+    text-align: center;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#card-one
+{
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background: steelblue;
+    border-color: lightsteelblue;
+}
+
+#result-cardone
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#card-two
+{
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background: steelblue;
+    border-color: lightsteelblue;
+}
+
+#result-cardtwo
+{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+h3
+{
+    margin-top: 2%;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#total-card
+{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#last-btn
+{
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background: steelblue;
+    border-color: lightsteelblue;
+}
+
+#comment-card
+{
+    margin-top: 2%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
