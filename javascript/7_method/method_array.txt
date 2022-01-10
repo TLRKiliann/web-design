@@ -53,6 +53,8 @@ console.log(arrayNumber.reduce((x,y) => x + y));
 push()
 array1.push("Salut");
 
+remove() ??? or delete ...
+
 ---
 
 //FILTER, SORT, MAP
@@ -79,8 +81,6 @@ arrayNumber.map((number) => document.body.textContent +=
 ou
 document.body.textContent = arrayNumber.map((number) =>
 `<li>${number}</li>`).join("");
-
-
 
 
 //Spread
