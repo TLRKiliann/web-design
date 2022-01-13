@@ -1,0 +1,161 @@
+body
+{
+    width: 0 auto;
+    margin: 0 auto;
+    height: 100vh;
+    background: lightblue;
+}
+
+h1
+{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+h3
+{
+    color: whitesmoke;
+    text-shadow: 1px 1px 0px black;
+    margin-bottom: 10px;
+}
+
+#aside-left
+{
+    position: absolute;
+    top: 0px;
+    width: 10%;
+    height: 100vh;
+    margin-right: 90%;
+    margin-left: 0%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center top;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid whitesmoke;
+}
+
+#box
+{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1Fr 1Fr;
+    grid-template-columns: 1Fr 1Fr 1Fr;
+    text-align: center;
+}
+
+.form-b
+{
+    background: whitesmoke;
+    opacity: 0.6;
+    border: 1px solid whitesmoke;
+}
+
+#aside-right
+{
+    position: absolute;
+    top: 0px;
+    width: 10%;
+    height: 100vh;
+    margin-right: 0%;
+    margin-left: 90%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center top;
+    text-align: center;
+    box-sizing: border-box;
+    border-left: 1px solid whitesmoke;
+}
+
+article
+{
+    padding: 2%;
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    text-align: justify;
+    color: dimgray;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#art-one
+{
+    font-size: 1.2rem;
+}
+
+#art-two
+{
+    font-size: 1.2rem;
+}
+
+
+#box-section
+{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1Fr 1Fr;
+    grid-template-columns: 1Fr 1Fr;
+    text-align: center;
+}
+
+.form-section
+{
+    background: whitesmoke;
+    opacity: 0.6;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+footer
+{
+    width: 0 auto;
+    margin: 0 auto;
+    bottom: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: whitesmoke;
+    opacity: 0.6;
+    border: 1px solid whitesmoke;
+}
+
+/*
+#flex-nav
+{
+    border: 2px solid orange;
+}
+*/
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+ 
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
