@@ -35,7 +35,7 @@ img
 {
     width: 200px;
     height: 100px;
-    opacity: transparent;
+    opacity: 0.4;
 }
 
 #aside-left
@@ -317,6 +317,46 @@ article
     font-size: 1.2rem;
     border: 1px dashed navy;
     border-radius: 10px;
+}
+
+/* class for JS */
+.custom-art
+{
+    font-size: 1.6rem;
+    color: blue;
+    animation-name: rotateme;
+    animation-duration: 2s;
+}
+
+@keyframes rotateme
+{
+    from
+    {
+        transform: rotateZ(0deg);
+    }
+    to
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+.customjs p
+{
+    width: 70%;
+    margin-top: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1Fr 1Fr;
+    grid-template-columns: 1Fr 1Fr 1Fr;
+    align-items: center;
+    border: 2px dashed black;
+}
+
+#newlist
+{
+    color: red;
 }
 
 #box-section
