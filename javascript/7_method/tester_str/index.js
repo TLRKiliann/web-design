@@ -60,20 +60,81 @@ console.log("---");
 
 console.log("- indexOf() with object -");
 
-const objInd = {
-  member: {
+let objInd =
+  {
     name: "Matieu",
     skills: "nympy, panda",
     status: "co-worker"
-  }
-}
+};
 
 console.log("--- objInd ---");
 console.log(objInd);
 
-console.log("--- objInd.member.name ---");
-console.log(objInd.member.name);
+console.log("--- objInd.name ---");
+console.log(objInd.name);
 //return Matieu
+
+let myArrayObj = [];
+console.log("--- myArrayObj.push(objInd); ---");
+myArrayObj.push(objInd);
+console.log(myArrayObj.push(objInd));
+//return 2
+console.log("---");
+
+console.log("--- myArrObj[1] ---");
+console.log(myArrayObj[0]);
+/*{
+    "name": "Matieu",
+    "skills": "nympy, panda",
+    "status": "co-worker"
+}*/
+console.log("---");
+
+console.log("--- let dispFinal = myArrayObj.map((x) => x.name); ---")
+let dispFinal = myArrayObj.map((x) => x.name);
+console.log(dispFinal);
+/*[
+    "Matieu",
+    "Matieu"
+]*/
+console.log("---");
+
+console.log("--- let dispFinal = myArrayObj.map((x) => {x.name[1]});")
+let dispSecFinal = myArrayObj.map((x) => {x.name[1]});
+console.log(dispSecFinal);
+/*[
+    null,
+    null
+]*/
+console.log("---")
+
+console.log("let thirdFinal = myArrayObj.map((x) => x.name).indexOf('Matieu');")
+let thirdFinal = myArrayObj.map((x) => x.name).indexOf('Matieu');
+console.log(thirdFinal);
+/*[
+    "Matieu",
+    "Matieu"
+]*/
+console.log("---+++++++");
+
+console.log(myArrayObj.indexOf(name));
+//console.log(dispArrObj.map((x) => x.name);
+
+
+
+//let dispFinalArr = dispArrObj.map(function(x) x.name).indexOf("Matieu");
+
+console.log("--- dispArrObj.map(function(x) {return x.name}).indexOf('Matieu')---");
+//console.log(dispFinalArr);
+console.log("---");
+
+//console.log(dispArrObj.map((x) => x)).indexOf();
+
+/*
+(dispArrObj.map((x) => x.member)
+console.log("dispArrObj.map((x) => x.member.name));");
+console.log(dispArrObj.map((x) => x.member);
+*/
 
 //console.log(objInd.map(member));
 //return error
@@ -109,6 +170,11 @@ posit = data.map((x) => x.pseudo);
 console.log("--- data.map((x) => x.pseudo); ---");
 console.log(posit);
 //return ['Denis', 'Anastasia', 'Jasmine']
+console.log("---");
+
+secPosit = data.map((x) => x.pseudo).indexOf('Anastasia');
+console.log(secPosit);
+//return 1
 console.log("---");
 
 //--- slice()
