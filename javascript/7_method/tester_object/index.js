@@ -52,3 +52,20 @@ function chunkArrayInGroups(arr, size) {
 }
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
+
+
+//Another maner with loop :
+const ratings = [];
+for (let i = 0; i < watchList.length; i++) {
+  ratings.push({title: watchList[i]["Title"], rating: watchList[i]["imdbRating"]});
+}
+
+//We could replace by...
+for (let item in tems) {
+    watchList.map((item) => {
+        item = item['Title'],
+        item = item['imdbRating']
+    });
+};
+
+console.log(newObject);
