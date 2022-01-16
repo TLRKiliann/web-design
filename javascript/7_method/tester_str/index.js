@@ -38,23 +38,23 @@ console.log("---");
 
 console.log("--- strArray.indexOf('string') ---");
 console.log(strArray.indexOf(strArray));
-console.log("---");
 //return -1 (error)
+console.log("---");
 
 console.log("--- strArray.indexOf(true) ---");
 console.log(strArray.indexOf(true));
-console.log("---");
 //return 3
+console.log("---");
 
 console.log("--- strArray.indexOf('are') ---");
 console.log(strArray.indexOf("are"));
-console.log("---");
 //return -1 (error)
+console.log("---");
 
 console.log("--- strArray.indexOf('You are') ---");
 console.log(strArray.indexOf("You are"));
-console.log("---");
 //return 0
+console.log("---");
 
 //--- indexOf() with object
 
@@ -75,8 +75,41 @@ console.log("--- objInd.member.name ---");
 console.log(objInd.member.name);
 //return Matieu
 
-console.log(objInd.indexOf(member.skills));
+//console.log(objInd.map(member));
 //return error
+
+//--- indexOf() with object in array
+
+console.log("- indexOf() with object in array -");
+
+let data = [
+  {
+    pseudo : "Denis",
+    age : 33,
+    techno : ["JS", "Python", "React"],
+    admin : false,
+  },
+  {
+    pseudo : "Anastasia",
+    age : 28,
+    techno : ["JS", "HTML", "CSS"],
+    admin : true,
+  },
+  {
+    pseudo : "Jasmine",
+    age : 35,
+    techno : ["JS", "Node.js", "Redux"],
+    admin : false,
+  },
+];
+
+console.log("---");
+
+posit = data.map((x) => x.pseudo);
+console.log("--- data.map((x) => x.pseudo); ---");
+console.log(posit);
+//return ['Denis', 'Anastasia', 'Jasmine']
+console.log("---");
 
 //--- slice()
 
