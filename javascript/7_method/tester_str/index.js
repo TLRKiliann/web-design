@@ -99,8 +99,8 @@ console.log(dispFinal);
 ]*/
 console.log("---");
 
-console.log("--- let dispFinal = myArrayObj.map((x) => {x.name[1]});")
-let dispSecFinal = myArrayObj.map((x) => {x.name[1]});
+console.log("--- let dispFinal = myArrayObj.map((x) => {x.name[0]});")
+let dispSecFinal = myArrayObj.map((x) => {x.name[0]});
 console.log(dispSecFinal);
 /*[
     null,
@@ -111,33 +111,19 @@ console.log("---")
 console.log("let thirdFinal = myArrayObj.map((x) => x.name).indexOf('Matieu');")
 let thirdFinal = myArrayObj.map((x) => x.name).indexOf('Matieu');
 console.log(thirdFinal);
-/*[
-    "Matieu",
-    "Matieu"
-]*/
-console.log("---+++++++");
-
-console.log(myArrayObj.indexOf(name));
-//console.log(dispArrObj.map((x) => x.name);
-
-
-
-//let dispFinalArr = dispArrObj.map(function(x) x.name).indexOf("Matieu");
-
-console.log("--- dispArrObj.map(function(x) {return x.name}).indexOf('Matieu')---");
-//console.log(dispFinalArr);
+//0
 console.log("---");
 
-//console.log(dispArrObj.map((x) => x)).indexOf();
+console.log("myArrayObj.indexOf(name or 'name')");
+//-1 (doesn't work)
+console.log("Doesn't work !!! return -1")
+console.log("---");
 
-/*
-(dispArrObj.map((x) => x.member)
-console.log("dispArrObj.map((x) => x.member.name));");
-console.log(dispArrObj.map((x) => x.member);
-*/
-
-//console.log(objInd.map(member));
-//return error
+console.log("let fourthFinal = myArrayObj.map((x) => x.skills).indexOf('nympy, panda');")
+let fourthFinal = myArrayObj.map((x) => x.skills).indexOf('nympy, panda');
+console.log(fourthFinal);
+//0
+console.log("---");
 
 //--- indexOf() with object in array
 
