@@ -39,3 +39,16 @@ function frankenSplice(arr1, arr2, n) {
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
+//--- CHUNKY MONKEY
+//To cut one array in 2 others without split()
+
+function chunkArrayInGroups(arr, size) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i += size) {
+    newArr.push(arr.slice(i, i + size));
+  }
+  console.log(newArr)
+  return newArr;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
