@@ -1,36 +1,99 @@
 //To test string
 
-//------------------------------------------------------------------
 // -----
 //STRING
 // -----
+console.log("--- string ---")
 
 let string = "Je suis une string";
 console.log("---");
+
 console.log("string = ", string);
 console.log("---");
 
-console.log("---string.indexOf('suis')---");
+//--- indexOf()
+
+console.log("- indexOf() with a string -")
+
+console.log("--- string.indexOf('suis') ---");
 console.log(string.indexOf("suis"));
-console.log("---string.indexOf('string')---");
-console.log(string.indexOf("string"));
+console.log("---");
+//return 3
+
+console.log("--- string.indexOf('string') ---");
+console.log(string.indexOf(string));
+console.log("---");
+//return 0
+
+//--- indexOf() with array
+
+console.log("- indexOf() with array -")
+
+let strArray = ["You are", 2, 6, true, 2];
 console.log("---");
 
-//slice()
-console.log("---slice()---");
+console.log("--- strArray = ['You are', 2, 6, true, 2]; ---");
+console.log(strArray);
+console.log("---");
+
+console.log("--- strArray.indexOf('string') ---");
+console.log(strArray.indexOf(strArray));
+console.log("---");
+//return -1 (error)
+
+console.log("--- strArray.indexOf(true) ---");
+console.log(strArray.indexOf(true));
+console.log("---");
+//return 3
+
+console.log("--- strArray.indexOf('are') ---");
+console.log(strArray.indexOf("are"));
+console.log("---");
+//return -1 (error)
+
+console.log("--- strArray.indexOf('You are') ---");
+console.log(strArray.indexOf("You are"));
+console.log("---");
+//return 0
+
+//--- indexOf() with object
+
+console.log("- indexOf() with object -");
+
+const objInd = {
+  member: {
+    name: "Matieu",
+    skills: "nympy, panda",
+    status: "co-worker"
+  }
+}
+
+console.log("--- objInd ---");
+console.log(objInd);
+
+console.log("--- objInd.member.name ---");
+console.log(objInd.member.name);
+//return Matieu
+
+console.log(objInd.indexOf(member.skills));
+//return error
+
+//--- slice()
+
+console.log("--- slice() ---");
 let newStr = string.slice(2, 5);
 console.log("string.slice(2, 5) = ", newStr);
 //su
-console.log("---initial array---");
+console.log("--- initial array ---");
 console.log(string);
 console.log("---");
 
-console.log("---split()---");
+console.log("--- split() ---");
 console.log("string.split('une') = ", string.split("une"));
 //['Je suis ', ' string']
 console.log("---");
 
-console.log("---replace()---");
+console.log("--- replace() ---");
 console.log("string.replace('une string', 'un slip') =", string.replace("une string", "un slip"));
 //Je suis un slip
 console.log("---");
@@ -66,43 +129,43 @@ console.log("---");
 
 //reduce()
 let arrayNumber = [2, 5, 29, 11];
-console.log("---reduce()---");
+console.log("--- reduce() ---");
 console.log(arrayNumber.reduce((x,y) => x + y));
 //addition tous les elements
 console.log("---");
 
 //sort()
-console.log("---sort()---");
+console.log("--- sort() ---");
 console.log(arrayNumber.sort((a, b) => b - a));
 console.log(arrayNumber.sort((a, b) => a - b));
 console.log("---");
 
 //filter()
 filterArray = arrayNumber.filter((filnumbex) => filnumbex > 10)
-console.log("---filter()---");
+console.log("--- filter() ---");
 console.log("filter : ", filterArray);
 console.log("---");
 
 //filter() + sort() : IMPORTANT
 disorderArray = arrayNumber.filter((mynumbex) => mynumbex > 10).sort((a, b) => b - a);
-console.log("---filter() + sort()---");
+console.log("--- filter() + sort() ---");
 console.log("disorder array : " + disorderArray);
 console.log("---");
 
 orderArray = arrayNumber.filter((number) => number > 10).sort((a, b) => a - b);
-console.log("---filter() + sort()---");
+console.log("--- filter() + sort() ---");
 console.log("order array : " + orderArray);
 console.log("---");
 
 //map()
 mapArray = arrayNumber.map((nbnumber) => nbnumber > 10);
-console.log("---map()---");
+console.log("--- map() ---");
 console.log("map() with array : " + mapArray);
 console.log("---");
 
 //filter() + map()
 filtermapArray = arrayNumber.filter((mapnumber) => mapnumber > 10).map((a, b) => (a - b));
-console.log("---filter() + map()---");
+console.log("--- filter() + map() ---");
 console.log("filter() + map() : " + filtermapArray);
 console.log("---");
 
@@ -119,7 +182,7 @@ console.log("...");
 
 let blueBird = new Bird();
 
-console.log("---Doesn't WORK---");
+console.log("--- Doesn't WORK ---");
 console.log(blueBird.name);
 console.log(blueBird.color);
 console.log(blueBird.numLegs);
@@ -127,7 +190,7 @@ console.log("---");
 
 blueBird.name = 'Sarah';
 
-console.log("---Done---");
+console.log("--- Done ---");
 console.log(blueBird.name);
 console.log("---");
 
