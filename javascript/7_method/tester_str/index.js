@@ -156,15 +156,17 @@ let data = [
   },
 ];
 
+console.log(data);
 console.log("---");
 
-posit = data.map((x) => x.pseudo);
 console.log("--- data.map((x) => x.pseudo); ---");
+posit = data.map((x) => x.pseudo);
 console.log(posit);
 //return ['Denis', 'Anastasia', 'Jasmine']
 console.log("---");
 
 secPosit = data.map((x) => x.pseudo).indexOf('Anastasia');
+console.log("secPosit = data.map((x) => x.pseudo).indexOf('Anastasia');");
 console.log(secPosit);
 //return 1
 console.log("---");
@@ -173,11 +175,18 @@ console.log("---");
 // splice() with STRING
 // --------------------
 
-console.log("--- slice() ---");
+console.log("- slice() -");
+
+console.log("--- console.log(string) ---");
+console.log(string);
+console.log("---");
+
 let newStr = string.slice(2, 5);
 console.log("string.slice(2, 5) = ", newStr);
 //su
-console.log("--- initial array ---");
+console.log("---");
+
+console.log("--- initial string ---");
 console.log(string);
 console.log("---");
 
@@ -200,12 +209,18 @@ let customString = ["Je", "suis", "une", "string"];
 let custom = customString[2].replace("une", "un");
 
 console.log("---");
-console.log("customString[2].replace('une', 'un') = ", customString[2].replace("une", "un"));
+console.log("customString[2].replace('une', 'un') = ", custom);
 //un
 console.log("---");
 
 let secCustom = customString.push(custom);
+console.log("customString.push(custom) = ", secCustom);
+console.log("--- secCustom ---");
+//return 5
+
+
 console.log("customString.push(custom) = ", customString);
+console.log("--- customString ---");
 //["Je", "suis", "une", "string", "un"]
 
 //splice()
@@ -344,6 +359,9 @@ console.log("aero.targetPlanet = " + aero.targetPlanet);
 
 //Good trick !
 console.log("Object.keys(aero)", Object.keys(aero));
+//return targetPlanet
+
+console.log("Object.values(aero)", Object.values(aero));
 //return targetPlanet
 
 console.log("typeof(aero.targetPlanet) = " + typeof(aero.targetPlanet));
