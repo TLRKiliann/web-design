@@ -11,7 +11,9 @@ console.log("---");
 console.log("string = ", string);
 console.log("---");
 
-//--- indexOf()
+// ------------
+// indexOf()
+// ------------
 
 console.log("- indexOf() with a string -")
 
@@ -25,7 +27,9 @@ console.log(string.indexOf(string));
 console.log("---");
 //return 0
 
-//--- indexOf() with array
+// -----------------------
+// indexOf() with array
+// -----------------------
 
 console.log("- indexOf() with array -")
 
@@ -125,7 +129,9 @@ console.log(fourthFinal);
 //0
 console.log("---");
 
-//--- indexOf() with object in array
+// -------------------------------
+// indexOf() with object in ARRAY
+// -------------------------------
 
 console.log("- indexOf() with object in array -");
 
@@ -163,7 +169,9 @@ console.log(secPosit);
 //return 1
 console.log("---");
 
-//--- slice()
+// --------------------
+// splice() with STRING
+// --------------------
 
 console.log("--- slice() ---");
 let newStr = string.slice(2, 5);
@@ -183,10 +191,9 @@ console.log("string.replace('une string', 'un slip') =", string.replace("une str
 //Je suis un slip
 console.log("---");
 
-//------------------------------------------------------------------
-// -----
-// ARRAY
-// -----
+// --------------------
+// splice() with ARRAY
+// --------------------
 
 //replace()
 let customString = ["Je", "suis", "une", "string"];
