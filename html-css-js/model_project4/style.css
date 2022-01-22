@@ -1,0 +1,232 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+header
+{
+    margin-top: 1%;
+    text-align: center;
+    border: 2px solid navy;
+}
+
+h1
+{
+    width: 25%;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+.classh1
+{
+    width: 25%;
+    margin-top: 10px auto;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+#first-div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: 2px solid red;
+}
+
+.myimg
+{
+    width: 45px;
+    height: 30px;
+}
+
+.myp
+{
+    padding-left: 10px;
+}
+
+/*Class called by JS*/
+.imgCustom
+{
+    width: 45px;
+    height: 30px;
+    animation-name: img-rotation;
+    animation-duration: 2s;
+    transform: rotateY(0deg);
+}
+
+@keyframes img-rotation
+{
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+#second-div
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 2px solid red;
+}
+
+.div-align
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid pink;
+    padding: 0px 10px;
+}
+
+.myp
+{
+    border: 2px solid orange;
+}
+
+.div-align p
+{
+    margin-left: 10px;
+}
+
+.aside-art
+{
+    margin-top: 2%;
+    height: 25vh;
+    border: 2px solid purple;
+}
+
+#left-art
+{
+    float: left;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: justify;
+    border-right: 2px solid black;
+    
+    /*border: 2px solid purple;*/
+}
+
+#aside-l
+{
+    float: left;
+    margin-top: 30px;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: justify;
+    font-size: 0.8rem;
+    /*border: 2px solid violet;*/
+}
+
+#aside-r
+{
+    float: left;
+    width: 400px;
+    height: 25vh;
+    padding: 0px 10px;
+    text-align: justify;
+    border: 2px solid orange;
+}
+
+#art-nav ul
+{
+    float: left;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 6%;
+    width: 200px;
+    font-size: 2rem;
+    list-style: circle;
+    border: 2px solid orange;
+}
+
+#art-nav nav ul li
+{
+    font-size: 2rem;
+    list-style: circle;
+    border: 2px solid yellow;
+}
+
+#last-aside
+{
+    float: left;
+    padding-left: 3%;
+    width: 300px;
+    border-left: 2px solid black;
+}
+
+#section-last
+{
+    width: 300px;
+    margin-top: auto;
+    margin-right: 30%;
+    margin-left: 2%;
+    padding: 200px 20px;
+
+}
+
+footer
+{
+    position: absolute;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    background: whitesmoke;
+    opacity: 0.6;
+    border-top: 3px solid lightgrey;
+}
+
+nav ol
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ol li
+{
+    list-style: none;
+}
+ 
+nav ol li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    bottom: 0;
+}
+
+nav > ol > li > a:hover
+{
+    text-decoration: none;
+    color: yellow;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px 10px;
+}
