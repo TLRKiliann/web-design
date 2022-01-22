@@ -35,6 +35,22 @@ h1
     background: black;
     color: white;
     border-radius: 15px;
+
+    animation-name: rotateh1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotateh1
+{
+    from
+    {
+        transform: rotateX(0deg);
+    }
+    to
+    {
+        transform: rotateX(360deg);
+    }
 }
 
 #first-div
@@ -79,7 +95,24 @@ h1
     }
 }
 
+#main-div
+{
+    display: flex;
+    flex-direction: row;
+}
+
 #second-div
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 2px solid red;
+}
+
+#third-div
 {
     width: 20%;
     display: flex;
@@ -124,7 +157,6 @@ h1
     width: 150px;
     text-align: justify;
     border-right: 2px solid black;
-    
     /*border: 2px solid purple;*/
 }
 
@@ -177,30 +209,69 @@ h1
     border-left: 2px solid black;
 }
 
-#section-last
+#article-last
 {
-    width: 300px;
-    margin-top: auto;
-    margin-right: 30%;
-    margin-left: 2%;
-    padding: 200px 20px;
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
 
+#art-p
+{
+    display: flex;
+    margin-top: 10%;
+    width: 30%;
+    margin-left: 2%;
+}
+
+#navbar-p
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+#navbar-p > nav > ol
+{
+    padding-left: 0px;
+}
+
+#navbar-p > nav > ol > li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+#navbar-p > nav > ol > li > a
+{
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 footer
 {
-    position: absolute;
-    margin-top: 180px;
-    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     text-align: center;
     font-size: 1.2rem;
     background: whitesmoke;
     opacity: 0.6;
+    transition: ease 2s;
     border-top: 3px solid lightgrey;
 }
 
-nav ol
+footer:hover
+{
+    opacity: 1;
+}
+
+#flex-nav > nav > ol
 {
     display: flex;
     align-items: center;
@@ -208,25 +279,25 @@ nav ol
     justify-content: space-around;
 }
 
-nav ol li
+#flex-nav > nav > ol > li
 {
     list-style: none;
 }
- 
-nav ol li a
+
+
+#flex-nav > nav > ol > li > a
 {
+    position: relative;
     text-decoration: none;
     color: black;
-    padding: 10px 10px;
-    bottom: 0;
+    padding: 10px 50px;
 }
 
-nav > ol > li > a:hover
+#flex-nav > nav > ol > li > a:hover
 {
     text-decoration: none;
     color: yellow;
-    background: black;
+    background: grey;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px grey;
-    padding: 10px 10px;
+    padding: 10px 50px;
 }
